@@ -26,28 +26,28 @@
   font-size: 16px;
 }
 
-.table {
+table {
   padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.table tr,
+table tr,
 th,
 td {
   border: 1px solid black;
   padding: 5px;
 }
 
-.table td {
+table td {
   text-align: center;
 }
 .table-head {
   background-color: #0983e7 !important;
   font-weight: bold;
 }
-.table tr:nth-child(odd) {
+table tr:nth-child(odd) {
   background-color: #92979a;
 }
 

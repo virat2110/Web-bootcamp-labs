@@ -1,0 +1,90 @@
+/* Basic styling to create a simple, clean layout. Customize as needed. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar .sections a,
+.navbar .links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+.navbar .sections a:hover,
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+/* Add some padding to the main content to avoid overlapping with the fixed navbar */
+main {
+  padding-top: 60px;
+}
+
+.flex-container {
+  display: flex;
+  flex: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.flex-container div {
+  background-color: rgb(43, 206, 228);
+  width: 20%;
+  height: 30vh;
+  border-radius: 15px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+}
+.details {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.details img {
+  border-radius: 50%;
+}
+.about-me div {
+  border: 2px solid black;
+}
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.technologies img {
+  width: 7vw;
+  padding-right: 10px;
+}

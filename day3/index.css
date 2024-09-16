@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+.container h1 {
+  color: blueviolet;
+}
+.searchBox {
+  margin-top: 20px;
+  width: 50vw;
+  height: 35px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.sortButton {
+  margin-top: 20px;
+  width: 10vw;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+.sortButton:hover {
+  background-color: darkblue;
+}
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie {
+  background-color: rgb(246, 244, 244);
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+.movie img {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.movie h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.movie p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
